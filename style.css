@@ -1,0 +1,65 @@
+/*For the main header*/
+h1 {
+  color: red;
+  font-family: verdana;
+  font-size : 250%;
+  text-align: center;
+}
+
+
+/*Styles for the navigation bar*/
+.navbar {
+	width: 100%;
+	background-color: #555;
+	overflow: auto;
+}
+
+/*For navigation links*/
+.navbar a {
+	float: left;
+	color: white;
+	text-decoration: none;
+	font-size: 17px;
+	width: 25%;
+	text-align: center;
+	font-family: arial;
+}
+
+/*On hovering over*/
+.navbar a:hover {
+	background-color: #000;
+}
+
+.navbar a.active {
+	background-color: #4EC0B8;
+}
+
+
+/*Style for the article div class*/
+div.article {
+	font-family: courier;
+	text-align: center;
+	font-size: 100%;
+}
+
+/*Responsiveness for when screen is less than 500px, 
+the navigation links appear on top of each other*/
+@media screen and (max-width: 500px) {
+	.navbar a {
+		float: none;
+		display: block;
+		width: 100%;
+		text-align:left;
+	}
+}
+
+/*For the Latest Article header*/
+h2 {
+	color:red;
+}
+
+/*For the article substance*/
+p {
+  border: 1px solid green;
+  padding: 30px;
+}

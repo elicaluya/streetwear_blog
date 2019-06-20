@@ -1,5 +1,6 @@
 /*For the main header*/
 h1 {
+  color: red;
   font-family: verdana;
   font-size : 250%;
   text-align: center;
@@ -45,7 +46,7 @@ body {
 
 
 /*Style for the article div class*/
-div.article {
+div.about_section {
 	font-family: courier;
 	text-align: center;
 	font-size: 100%;

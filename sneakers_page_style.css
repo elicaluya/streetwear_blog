@@ -56,12 +56,13 @@ body {
 
 /*Style for the article div class*/
 div.article {
-	font-family: courier;
+	font-family: arial;
 	text-align: center;
 	font-size: 100%;
 
 	border-left: 2px solid red;
   	background-color: lightgrey;
+  	background: rgba(255,255,255,0.8);
   	padding: 10px;
 }
 

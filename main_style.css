@@ -1,11 +1,4 @@
-/*Stylings for the logo/home button */
-.logo {
-	display:block;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-
+/*Stylings for the body background*/
 body {
 	background-image: url("images/shoe_edited.jpg");
 	background-repeat: no-repeat;
@@ -55,6 +48,19 @@ div.article {
   	background-color: lightgrey;
   	background: rgba(255,255,255,0.8);
   	padding: 10px;
+}
+
+a.div_a {
+      display: table;
+      width:320px;
+      height:160px;
+      background-color:#CCC;
+}
+
+.wrapper {
+    display: table-cell;
+    vertical-align: middle;
+    margin: 0 auto;
 }
 
 

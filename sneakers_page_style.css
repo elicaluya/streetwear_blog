@@ -9,46 +9,18 @@ h1 {
 }
 
 body {
-	background-image: url("images/shoe_edited.jpg");
+	background-image: url("images/sneakers_logo2.jpg");
 	background-repeat: no-repeat;
-	height: 500px;
+	height: 100%;
 	background-color: #D1B8B3;
 	background-position: center;
 
 }
 
-/*Styles for the navigation bar*/
-.navbar {
-	position: sticky;
-	top: 0;
-	width: 100%;
-	background-color: #555;
-	overflow: auto;
-}
-
-/*For navigation links*/
-.navbar a {
-	float: left;
-	color: white;
-	text-decoration: none;
-	font-size: 17px;
-	width: 25%;
-	text-align: center;
-	font-family: arial;
-}
-
-/*On hovering over*/
-.navbar a:hover {
-	background-color: #000;
-}
-
-.navbar a.active {
-	background-color: #F5240C;
-}
 
 
 /*Style for the article div class*/
-div.article {
+div.banner {
 	font-family: arial;
 	text-align: center;
 	font-size: 100%;

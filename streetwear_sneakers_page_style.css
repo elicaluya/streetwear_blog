@@ -2,8 +2,8 @@ body, html {
   height: 75%;
   margin: 0;
   font-family: Arial;
-  background-color: grey;
-}
+  background-color: white;
+ }
 
 .banner_image {
 	height: 75%;
@@ -22,19 +22,14 @@ body, html {
 	color: white;
 }
 
-.grid-container {
-	position: relative;
-	display: grid;
-	grid-column-gap: 30px;
-	grid-row-gap: 50px;
-	grid-template-columns: 700px auto;
-	background-color: #D1B8B3;
+.container {
+	background-color: white;
 	padding: 10px;
 }
 
 .article {
 	background-color: white;
-	border: 2px solid black;
+	border-top: solid grey;
 	padding: 10px;
 	font-size: 20px;
 	text-align: center;

@@ -33,20 +33,3 @@ a.div_a {
     vertical-align: middle;
     margin: 0 auto;
 }
-
-
-/*Responsiveness for when screen is less than 500px, 
-the navigation links appear on top of each other*/
-@media screen and (max-width: 500px) {
-	.navbar a {
-		float: none;
-		display: block;
-		width: 100%;
-		text-align:left;
-	}
-}
-
-/*For the Latest Article header*/
-h1 {
-	color:red;
-}

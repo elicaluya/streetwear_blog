@@ -25,9 +25,9 @@ body, html {
 .grid-container {
 	position: relative;
 	display: grid;
-	grid-column-gap: 20px;
+	grid-column-gap: 30px;
 	grid-row-gap: 50px;
-	grid-template-columns: 650px 650px;
+	grid-template-columns: 700px auto;
 	background-color: #D1B8B3;
 	padding: 10px;
 }

@@ -33,6 +33,7 @@
   </div>
 </nav>
 
+<button onclick="scrollToTop()" id="scrollButton" title="Scroll to top">Top</button>
 
 <div class="banner_image">
 	<div class="banner_text">
@@ -47,7 +48,7 @@
 		<div class="col-sm-6">
 			<div class="article">
 				<div class="overlay">
-					<a href="top10mid_elijah.html"><img src="images/jordan1_latochi.jpg"></a>
+					<a href="articles/top10mid_elijah.html"><img src="images/jordan1_latochi.jpg"></a>
 				</div>
 				<a href="top10mid_elijah.html">Elijah's Top 10 Shoes of the Year So Far</a>
 			<p>Date: 7/16/2019</p>
@@ -76,6 +77,25 @@
 		</div>
 	</div>
 </div>
+
+<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {whileScroll()};
+
+	function whileScroll() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		document.getElementById("scrollButton").style.display = "block";
+  		} else {
+    		document.getElementById("scrollButton").style.display = "none";
+  		}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function scrollToTop() {
+  		document.body.scrollTop = 0;
+  		document.documentElement.scrollTop = 0;
+	}
+</script>
 
 </body>
 </html>

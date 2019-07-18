@@ -33,6 +33,7 @@
   </div>
 </nav>
 
+<button onclick="scrollToTop()" id="scrollButton" title="Scroll to top">Top</button>
 
 <div class="banner_image">
 	<div class="banner_text">
@@ -107,6 +108,25 @@
 	</div>
 	<br>
 </div>
+
+<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {whileScroll()};
+
+	function whileScroll() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		document.getElementById("scrollButton").style.display = "block";
+  		} else {
+    		document.getElementById("scrollButton").style.display = "none";
+  		}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function scrollToTop() {
+  		document.body.scrollTop = 0;
+  		document.documentElement.scrollTop = 0;
+	}
+</script>
 
 </body>
 </html>

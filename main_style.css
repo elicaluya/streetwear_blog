@@ -1,11 +1,6 @@
 /*Stylings for the body background*/
 body {
-	background-image: url("images/shoe_edited.jpg");
-	background-repeat: no-repeat;
-	height: 500px;
 	background-color: #D1B8B3;
-	background-position: center;
-
 }
 
 
@@ -16,20 +11,7 @@ div.article {
 	font-size: 100%;
 
 	border-left: 2px solid red;
-  	background-color: black;
+	border-right: 2px solid red;
   	background: rgba(255,255,255,0.8);
   	padding: 120px;
-}
-
-a.div_a {
-      display: table;
-      width:320px;
-      height:160px;
-      background-color:#CCC;
-}
-
-.wrapper {
-    display: table-cell;
-    vertical-align: middle;
-    margin: 0 auto;
 }

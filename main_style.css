@@ -13,8 +13,8 @@ div.article {
 	border-left: 2px solid red;
 	border-right: 2px solid red;
   	background: rgba(255,255,255,0.8);
-  	padding-left: 120px;
-  	padding-right: 120px;
+  	padding-left: 200px;
+  	padding-right: 200px;
   	padding-top: 10px;
   	padding-bottom: 50px;
 }

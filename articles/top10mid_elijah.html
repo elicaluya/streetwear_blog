@@ -9,6 +9,7 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
   	<style>
+  		/*Styling for the scroll button */
   		#scrollButton {
   		  	display: none;
   		  	position: fixed;
@@ -34,12 +35,15 @@
 
 <br><br><br>
 
+<!-- Logo with link to homepage -->
 <div style="text-align:center">
 	<a href="../main.html" title="Home">
-		<img src = "../images/RicketyKicks.png" alt="Logo" align="center">
+		<img src = "../images/RicketyKicks.png" alt="Logo" align="center" width="50%">
 	</a>
 </div>
 
+
+<!-- Segment for the Navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -54,17 +58,24 @@
   </div>
 </nav>
 
+
+<!-- For Scroll to top Button -->
 <button onclick="scrollToTop()" id="scrollButton" title="Scroll to Top">Top</button>
 
+
+<!-- Main Article section for bulk of article -->
 <div class="article">
-	<h1><b><u>Elijah's Top 10 Sneakers of the Year So Far</u></b></h1>
-	<h3>7/15/2019</h3>
+	<h1><b>Elijah's Top 10 Sneakers of the Year So Far</b></h1>
+	<div class="written_by">
+		<p>By Elijah Caluya on 7/15/19</p>
+	</div>
+	
 
 	<br>
 
 	<p>2019 has given us a wide range of fire kicks and of course we had to rank them based on our personal opinion. These choices were kind of hard to make since so many brands were pumping out large amounts of sneakers especially from Yeezy and Jordan Brand. Tyler and I have pretty different attitudes when it comes to sneakers so I am sure that the majority of my list will be different from his. Most likely this list will change by the end of the year but here is a solid list of my favorites that have released by the time I have written this article.</p>
 
-	<p>*All images are from Stockx.com and clicking on the images provides a link to their respective stockx page.</p>
+	<p style="font-size: 80%">*All images are from Stockx.com and clicking on the images provides a link to their respective stockx page.</p>
 
 	<br>
 	
@@ -166,11 +177,10 @@
 	<p>
 	What else is there to be said about the Travis Scott Jordan 1. This shoe was executed incredibly well with the numerous details on the shoe including the backwards swoosh and the stamp on the heel. My favorite element of the shoe has to be the stash pocket because it draws inspiration from Chad Muska's signature shoe from eS and the sole fact that it is such a wild idea. Even though the shoe is in a poop brown colorway, the Jordan 1 model is so versatile that this color blocking makes it look absolutely fire. Travis's ideas were very strong in this collaboration and definitely shines above the other sneakers that have released so far in 2019.	
 	</p>
-
-	<br><br>
-	<p>Written by Elijah Caluya</p>
 </div>
 
+
+<!-- Javascript for the scroll to top button -->
 <script>
 	// When the user scrolls down 20px from the top of the document, show the button
 	window.onscroll = function() {whileScroll()};

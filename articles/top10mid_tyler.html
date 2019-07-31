@@ -9,6 +9,7 @@
   	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
   	<style>
+  		/*Styling for the scroll button */
   		#scrollButton {
   		  	display: none;
   		  	position: fixed;
@@ -34,12 +35,15 @@
 
 <br><br><br>
 
+<!-- Logo with link to homepage -->
 <div style="text-align:center">
 	<a href="../main.html" title="Home">
-		<img src = "../images/RicketyKicks.png" alt="Logo" align="center">
+		<img src = "../images/RicketyKicks.png" alt="Logo" align="center" width="50%">
 	</a>
 </div>
 
+
+<!-- Segment for the Navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -54,17 +58,23 @@
   </div>
 </nav>
 
+
+<!-- For Scroll to top Button -->
 <button onclick="scrollToTop()" id="scrollButton" title="Scroll to Top">Top</button>
 
+
+<!-- Main Article section for bulk of article -->
 <div class="article">
-	<h1><b><u>Tyler's Top 10 Sneakers of the Year So Far</u></b></h1>
-	<h3>7/15/2019</h3>
+	<h1><b>Tyler's Top 10 Sneakers of the Year So Far</b></h1>
+	<div class="written_by">
+		<p>By Tyler Trinidad on 7/15/19</p>
+	</div>
 
 	<br>
 
 	<p>Its ranking season baby. Elijah and I have made our top ten lists for the first half of 2019. <b>Please take thse with a grain of salt. This is for sure an opinion piece.</b> It's tough to tell the best sneakers at the halfway point of they year, but we've tried our best. For sure this group will change (the return of the bred 11s soon). Travis Scott has won 2019 so far.</p>
 
-	<p>*All images are from Stockx.com and clicking on the images provides a link to their respective stockx page.</p>
+	<p style="font-size: 80%">*All images are from Stockx.com and clicking on the images provides a link to their respective stockx page.</p>
 
 	<br>
 	
@@ -104,7 +114,7 @@
 		alt="Nike Adapt BB" style="width: 30%"></a>
 	<p></p>
 	<p>
-	Power acing!!! That's all I got to say. Also that price being way cheaper than last year's hyper adapts is nice as well.
+	Power lacing!!! That's all I got to say. Also that price being way cheaper than last year's hyper adapts is nice as well.
 	</p>
 	<br>
 
@@ -169,11 +179,10 @@
 	<p>
 	GRAIL!!!! Travis Scott's partnership with Jordan has been a fan favorite from the absolute start with those saucey Jordan 4's and this pair of 1's shows that it's still going strong. Travis might be up there soon with the one and only Ye as the top artist/designer.	
 	</p>
-
-	<br><br>
-	<p>Written by Tyler Trinidad</p>
 </div>
 
+
+<!-- Javascript for the scroll to top button -->
 <script>
 	// When the user scrolls down 20px from the top of the document, show the button
 	window.onscroll = function() {whileScroll()};

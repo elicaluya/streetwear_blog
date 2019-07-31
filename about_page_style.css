@@ -1,7 +1,6 @@
 
 /*For the main header*/
 h1 {
-  color: red;
   font-family: verdana;
   font-size : 250%;
   text-align: center;
@@ -11,7 +10,7 @@ body {
 	background-image: url("images/shoe_edited.jpg");
 	background-repeat: no-repeat;
 	height: 500px;
-	background-color: #D1B8B3;
+	background-color: #fff;
 	background-position: center;
 
 }
@@ -23,11 +22,11 @@ div.about_section {
 	text-align: center;
 	font-size: 100%;
 
-	border-left: 2px solid red;
-  	background-color: lightgrey;
-  	background: rgba(255,255,255,0.8);
-  	padding-left: 120px;
-  	padding-right: 120px;
-  	padding-top: 10px;
-  	padding-bottom: 50px;
+	border-style: double;
+  border-color: #abc4ed;
+  background: rgba(255,255,255,0.8);
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-top: 10px;
+  padding-bottom: 50px;
 }

@@ -8,13 +8,18 @@ body {
 div.article {
 	font-family: arial;
 	text-align: center;
-	font-size: 100%;
+	font-size: 125%;
 
-	border-left: 2px solid red;
-	border-right: 2px solid red;
-  	background: rgba(255,255,255,0.8);
-  	padding-left: 200px;
-  	padding-right: 200px;
+	border-left: 5px;
+	border-right: 5px;
+	border-style: double;
+	border-color: #abc4ed;
+  	padding-left: 275px;
+  	padding-right: 275px;
   	padding-top: 10px;
   	padding-bottom: 50px;
+}
+
+div.written_by {
+	font-size: 75%;
 }

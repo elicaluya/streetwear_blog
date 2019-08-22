@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rickety Kicks</title>
+	<link rel="icon" href="../images/RK.png">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+ 	<link rel="stylesheet" href="../main_style.css">
+  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  	<style>
+  		/*Styling for the scroll button */
+  		#scrollButton {
+  		  	display: none;
+  		  	position: fixed;
+  		  	bottom: 20px;
+  		  	right: 30px;
+  		  	z-index: 99;
+  		  	font-size: 18px;
+  		  	border: none;
+  		  	outline: none;
+  		  	background-color: #abc4ed;
+  		  	color: black;
+  		  	cursor: pointer;
+  		  	padding: 15px;
+  		  	border-radius: 20px;
+  		  	-webkit-transition-duration: 0.4s;  /* For Safari */
+    		transition-duration: 0.4s;
+    		box-shadow:  0 8px 16px 0 rgba(0,0,0,0.3), 0 6px 20px 0 rgba(0,0,0,0.3);
+  		}
+
+  		#scrollButton:hover {
+  		  	background-color: #D1B8B3;
+  		  	box-shadow:  0 8px 16px 0 rgba(0,0,0,0.8), 0 6px 20px 0 rgba(0,0,0,0.8);
+  		}
+  	</style>
+</head>
+<body>
+
+<br><br><br>
+
+<!-- Logo with link to homepage -->
+<div style="text-align:center">
+	<a href="../main.html" title="Home">
+		<img src = "../images/RicketyKicks.png" alt="Logo" align="center" width="50%">
+	</a>
+</div>
+
+
+<!-- Segment for the Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="../main.html"><img src="../images/RK_small.png" width="50%" style="margin: auto"></a>
+    </div>
+    <ul class="nav navbar-nav">
+      <li><a href="../main.html">Home</a></li>
+      <li><a href="../streetwear_page.html">Streetwear</a></li>
+      <li class="active"><a href="../sneakers_page.html">Sneakers</a></li>
+      <li><a href="../about_page.html">About</a></li>
+    </ul>
+  </div>
+</nav>
+
+
+<!-- For Scroll to top Button -->
+<button onclick="scrollToTop()" id="scrollButton" title="Scroll to Top">Top</button>
+
+
+<!-- Main Article section for bulk of article -->
+<div class="article">
+	<h1><b>Why Malls Are Dying</b></h1>
+	<div class="written_by">
+		<p>By Tyler Trinidad on 8/14/19</p>
+	</div>
+	
+
+	<br>
+
+	<p>
+		Footlocker, Champs, Footaction, Shoe Palace. These stores are staples for the average mall. They used to be a place where a person can buy the latest fashion and it was the spot where everyone came during raffles and releases. Now those days are numbered. In 2018, Forbes reported that 110 footwear stores have been closed down and it will continue to grow. 
+	</p>
+	<br>
+	<p>**2 reasons why I believe that malls are dying</p>
+	<br>
+	
+	<p><strong>1) StockX, GOAT, ETC… Online Sneaker Shopping</strong></p>
+	<br>
+	<p>
+		These online platforms have done something insane. They have made the hunt for grails extremely easy. If a shoe is sold out they have it (resale price though), but in general these shoe sites make it so pretty much anyone can purchase. 
+		<br><br>
+		That being said, this completely destroys the search for shoes which in part was one of the best parts about looking for a shoe. Going from mall to mall, store to store, and seeing if Champs, Footlockers, or Shoe Palace had a retro Jordan 8 was just a great part of the chase for the drip.
+	</p>
+	<br>
+	
+
+	<p><strong>2) The Stores Suck</strong></p>
+	<br>
+	<p>
+		This is part the stores fault and part the producers fault. Nike, Adidas and even Puma really don’t give these stores any heat. Its mostly just GR's and then a lot of trash (TEAM JORDAN ☹ haha) on the shelves. This cant be helping these stores epsecially when it comes to the large amount of Hypebeasts walking around as this potentially decreases the amount of revenue they could bring in. 
+		<br><br>
+		But seriously, unless its drop day, are people looking for more then just Prestos and NMDs.
+	</p>
+	<br>
+	<p>
+		 I believe overall though this can be fixed. Footlocker, for example, has begun a youth power movement. It bought GOAT and now I can tell its trying to change its branding. Hopefully we will see if it works out.
+	</p>
+
+
+</div>
+
+
+<!-- Javascript for the scroll to top button -->
+<script>
+	// When the user scrolls down 20px from the top of the document, show the button
+	window.onscroll = function() {whileScroll()};
+
+	function whileScroll() {
+  		if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    		document.getElementById("scrollButton").style.display = "block";
+  		} else {
+    		document.getElementById("scrollButton").style.display = "none";
+  		}
+	}
+
+	// When the user clicks on the button, scroll to the top of the document
+	function scrollToTop() {
+  		document.body.scrollTop = 0;
+  		document.documentElement.scrollTop = 0;
+	}
+</script>
+
+</body>
+</html>

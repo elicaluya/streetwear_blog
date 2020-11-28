@@ -6,18 +6,8 @@ body, html {
  }
 
 
-.sneaker_banner_image {
-  /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("images/sneaker_banner.jpg");*/
+.banner_image {
   height: 120%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
-.streetwear_banner_image {
-  /*background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)), url("images/streetwear_banner.jpg");*/
-	height: 120%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

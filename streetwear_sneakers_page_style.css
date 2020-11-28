@@ -1,29 +1,22 @@
-body, html {
+html {
   height: 75%;
   margin: 0;
   font-family: Arial;
   background-color: white;
  }
 
-
-.banner_image {
-  height: 120%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
-}
-
 .banner_text {
 	text-align: center;
-	position: absolute;
-	top: 75%;
-	left: 50%;
-	transform: translate(-50%, -50%);
+	position: relative;
+  height: 40%;
+  padding-bottom: 10%;
+  padding-top: 5%;
 	color: white;
+  text-decoration: underline;
 }
 
 .container {
+  position: relative;
 	background-color: white;
 	padding: 10px;
 }
